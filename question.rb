@@ -9,7 +9,7 @@ class Question
   end
 
   def get_question
-    "Question: What is #{@num1} #{@operator} #{@num2} ??"
+    "What is #{@num1} #{@operator} #{@num2} ?"
   end
 
   def correct?(answer)
